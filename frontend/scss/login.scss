@@ -1,0 +1,41 @@
+html,body {
+    height: 100%;
+}
+body {
+    background: url(../images/chelsea.jpg) center/100% no-repeat;
+}
+.text-area {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: -150px;
+    width: 300px;
+    height: 100px;
+    background: rgba(255,255,255,.8);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.text-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    label {
+        width: 80px;
+        text-align: right;
+    }
+    input {
+        padding: 0 10px;
+    }
+}
+.btn {
+    padding: 0;
+    height: 20px;
+    width: 40px;
+    text-align: center;
+    transform: translateX(116px);
+}
+#form {
+    margin: 0;
+}

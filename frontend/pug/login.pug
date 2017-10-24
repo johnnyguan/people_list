@@ -1,0 +1,21 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title 登陆
+        link(rel="stylesheet", href="../lib/css/bootstrap.min.css")
+        link(rel="stylesheet", href="../css/login.css")
+    body
+        form#form
+            .text-area
+            
+                .text-row
+                    label 用户名：
+                    input(type="text", name="user")
+                .text-row
+                    label 密码：
+                    input(type="password" name="password")
+                button.btn.btn-warning(type="button") 登陆
+    script(src="../lib/js/jquery-1.12.3.min.js")
+    script(src="../es6js/login.js")

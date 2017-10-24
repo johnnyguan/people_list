@@ -1,0 +1,21 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title 首页
+        link(rel="stylesheet", href="../lib/css/bootstrap.min.css")
+    body
+    div
+        |hello world22
+        button.btn.btn-primary(type="button")
+           | messages
+        
+
+    script
+        |fetch('/json/test.json')
+        |.then(function(response){
+        |return response.json()
+        |}).then(function(json){
+        |console.log(json);
+        |})
